@@ -1,0 +1,119 @@
+.content {
+  background: #f6f7f9;
+
+  padding: 20px 40px 30px;
+}
+
+.slidebar {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+
+.content-up {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pickup-btn {
+  padding: 6px 10px !important;
+  margin-left: 50%;
+}
+
+.drop-off {
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  color: var(--grey-text);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.list-view {
+  color: var(--blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+.content--list-popular {
+  display: flex;
+  overflow-x: scroll;
+}
+.content-listCar {
+  /* grid-template-columns: auto auto; */
+  /* justify-content: space-between; */
+}
+.list-recom {
+  display: flex;
+  color: var(--grey-text);
+  padding: 10px;
+}
+.content-list__btn {
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 45%;
+}
+
+@media (min-width: 480px) {
+  .content-listCar {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+  .content--list-popular {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .slidebar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .content-up {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pick-up {
+    background: var(--white);
+    border-radius: 10px;
+    width: 45%;
+  }
+  .pickup-btn {
+    margin-left: 0% !important;
+  }
+
+  .content-listCar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+  }
+  .content--list-popular {
+    overflow-x: none;
+  }
+}
+@media (min-width: 1024px) {
+  /* .slidebar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  } */
+  .content-listCar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+  }
+  .content--list-popular {
+    overflow: none;
+  }
+}

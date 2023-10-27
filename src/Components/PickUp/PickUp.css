@@ -1,0 +1,49 @@
+.pick-up {
+  background: var(--white);
+  border-radius: 10px;
+  /* width: 45%; */
+}
+.pick-up__text {
+  display: flex;
+  padding: 15px 0 10px 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.pickup-input {
+  padding-right: 10px !important;
+  display: flex;
+  align-items: center;
+}
+.pick-up__option {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  text-align: left;
+}
+.pickup {
+  border-right: 1px solid var(--outline);
+  padding-right: 10px;
+}
+.pickup-time {
+  padding-right: 10px;
+}
+.pickup-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.pickup-option {
+  display: flex;
+}
+.pickup-select {
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .pick-up {
+    background: var(--white);
+    border-radius: 10px;
+    width: 45%;
+  }
+}

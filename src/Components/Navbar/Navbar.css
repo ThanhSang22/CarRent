@@ -1,0 +1,23 @@
+.navbar-component {
+}
+
+.navbar-type {
+  text-align: left;
+  padding: 20px;
+}
+
+.navbar-type-text {
+  text-transform: uppercase;
+  color: var(--grey-text);
+  font-size: 12px;
+}
+
+.type-input {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.navbar-price__range-num {
+  font-size: 13px;
+}
